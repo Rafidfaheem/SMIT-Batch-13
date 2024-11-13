@@ -3,45 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
     <link rel="stylesheet" href="style.css">
+    <title>Login form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- Make form -->
-    <div class="big-container">
-        <div class="container">
-            <img src="saylani.png" alt="">
+    <div class="wrapper">
+        <form action="">
             <h1>
-                Login form
+                Login
             </h1>
-              <form action="/submit_form" method="post">
-                <label for="Email address">Email address</label>
-                <input type="text" class="wel" id="Email address" required>
-             <br>
-                <label for="Password">Password</label>
-                <input type="text" class="del" name="Password" id="Password" required>     
-             </form>
-             <form action="/Login" method="post">
-                <input type="submit" value="Login" class="submit-btn">
-            </form>
-                 <br>
-                 <h1>
-                    Create a new account
-                 </h1>
-                <label for="Full Name">Full Name</label>
-                 <input type="Full Name"class="nel" name="Full Name" id="Full Name" required>
-                 <br>
-                <br>
-                <label for="Email Address">Email address</label>
-                <input type="email" class="chel" id="email" required>
-                <label for="Password">Password</label>
-                <input type="password" class="chel" id="password" required>
-                </div>
-              <form action="/Sign up" method="post">
-                <input type="submit" value="Sign up" class="submit-btn">
-            </form>
-            
-        </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email address"
+                required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password"
+                required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">
+
+                Remember me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <dic class="register-link">
+                <p>
+                    Don't have an account
+                    <a href="http://127.0.0.1:5500/2index.html">Register</a>
+                </p>
+            </dic>
+        </form>
     </div>
 </body>
 </html>
