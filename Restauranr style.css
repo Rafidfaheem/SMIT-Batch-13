@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item{
+    height: 10px;
+    width: 50px;
+}
+.carousel-item-active{
+    height: 500px;
+    width: 1500px;
+}
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+  body {
+    background: #111 !important;
+  }
+  
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: red;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+.font-semibold-text-xl-text-gray-600{
+    color: #FF512F;
+}
+.text-gray-500-mb-6{
+    color: #dd2476;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
