@@ -1,59 +1,58 @@
 h1{
-   font-family: sans-serif;
+  font-family: sans-serif;
 }
 .hel{
-   float: right;
-   height: 40px;
-   width: 300px;
-   margin: 1px;
-   padding: 1px;
+  float: right;
+  height: 40px;
+  width: 300px;
+  margin: 0px;
+  padding: 1px;
 }
 .wel{
-    height: 40px;
-    width: 300px;
-    margin: 1px;
-    padding: 1px;
-}
-.del{
-   height: 40px;
-   width: 270px;
-   margin: 1px;
-}
-.nel{
    height: 40px;
    width: 300px;
    margin: 1px;
    padding: 1px;
 }
+.del{
+  height: 40px;
+  width: 270px;
+  margin: 1px;
+}
+.nel{
+  height: 40px;
+  width: 300px;
+  margin: 1px;
+  padding: 1px;
+}
 .chel{
-    height: 40px;
-    width: 300px;
-    margin: 1px;
-    padding: 1px;
+   height: 40px;
+   width: 300px;
+   margin: 1px;
+   padding: 1px;
 }
 
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 .big-container{
-    border: solid black 1px;
-    background-color: white;
+   border: solid black 1px;
+   background-color: white;
 }
 body{
-    background-color: lightgreen;
+   background-color: lightgreen;
 }
 .submit-btn {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 10px 20px; /* Padding */
-    border: none; /* Remove borders */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Increase font size */
-    transition: background-color 0.3s; /* Smooth transition */
+   background-color: #4CAF50; /* Green background */
+   color: white; /* White text */
+   padding: 10px 20px; /* Padding */
+   border: none; /* Remove borders */
+   border-radius: 5px; /* Rounded corners */
+   cursor: pointer; /* Pointer cursor on hover */
+   font-size: 16px; /* Increase font size */
+   transition: background-color 0.3s; /* Smooth transition */
 }
 
 .submit-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
+   background-color: #45a049; /* Darker green on hover */
 }
-
