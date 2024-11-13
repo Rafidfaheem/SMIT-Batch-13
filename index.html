@@ -3,129 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>saylani welfare int trust</title>
+    <title>Login form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
     <!-- Make form -->
-     <div class="big-container">
-    <div class="container">
-        <img src="saylani.png" alt="">
-        <h1>
-            Register your form
-        </h1>
-          <form action="/submit_form" method="post">
-            <label for="username">Fullname</label>
-            <input type="text" class="wel" id="username" required>
-         <br>
-            
-            <label for="Email">Email address</label>
-            <input type="email" class="del" name="email" id="email" required>
+    <div class="big-container">
+        <div class="container">
+            <img src="saylani.png" alt="">
+            <h1>
+                Login form
+            </h1>
+              <form action="/submit_form" method="post">
+                <label for="Email address">Email address</label>
+                <input type="text" class="wel" id="Email address" required>
              <br>
-            <label for="Telphone">Telphone</label>
-             <input type="Phone" class="nel" name="Phone" id="Phone" required>
-             <br>
-             <label for="dob" class="hel">Date of Birth</label>
-            <input type="date" class="hel" id="dob" name="dob" required>
-            <label for="address">Address</label>
-            <input type="Adress" class="chel" id="Address" required>
+                <label for="Password">Password</label>
+                <input type="text" class="del" name="Password" id="Password" required>     
+             </form>
+             <form action="/Login" method="post">
+                <input type="submit" value="Login" class="submit-btn">
+            </form>
+                 <br>
+                 <h1>
+                    Create a new account
+                 </h1>
+                <label for="Full Name">Full Name</label>
+                 <input type="Full Name"class="nel" name="Full Name" id="Full Name" required>
+                 <br>
+                <br>
+                <label for="Email Address">Email address</label>
+                <input type="email" class="chel" id="email" required>
+                <label for="Password">Password</label>
+                <input type="password" class="chel" id="password" required>
+                </div>
+              <form action="/Sign up" method="post">
+                <input type="submit" value="Sign up" class="submit-btn">
+            </form>
             
-          </div>
-          <br>
-          <div class="main-container">
-              <label for="course">Select course</label>
-             <select name="course" id="course">
-                <option value="Select course">
-                    Select course
-                </option>
-                <option value="Web and Mobile app developement">
-                    Web and Mobile app developement
-                </option>
-                <option value="Flutter">
-                    Flutter
-                </option>
-                <option value="Graphic designing">
-                    Graphic designing
-                </option>
-                <option value="UI/UX designing">
-                    UI/UX designing
-                </option>
-                <option value="3d animation">
-                    3d animation
-                </option>
-                <option value="Game developement">
-                    Game developement
-                </option>
-                <option value="Ai&Chatbot">
-                    AI & Chatbot
-                </option>
-                <option value="CCNA">
-                    CCNA
-                </option>
-                <option value="CyberSecurity">
-                    Cybersecurity
-                </option>
-                <option value="Software Quality assurance">
-                    Software quality assurance
-                </option>
-             </select>
-              <br>
-             <label for="Last Qualification">Last Qualification</label>
-                <select name="Last Qualification" id="Last Qualification">Last Qualification
-                <option value="Select">
-                    Select
-                </option>
-                <option value="Matric">
-                    Matric
-                </option>
-                <option value="O A levels">
-                    O A levels
-                </option>
-                <option value="Intermediate">
-                    Intermediate
-                </option>
-                <option value="Graduate Undergraduate">
-                    Graduate Undergraduate
-                </option>
-            </select>
-            <br>
-            <label for="City">Select City</label>
-            <select name="City" id="City">
-                <option value="Select city">Select City</option>
-                <option value="Karachi">Karachi</option>
-                <option value="Lahore">Lahore</option>
-                <option value="Sukkur">Sukkur</option>
-                <option value="Naraan">Naraan</option>
-                <option value="Islamabad">Islamabad</option>
-                <option value="Faislabad">Faislabad</option>
-            </select>
-            <br>
-            <label for="Select your computer proficiency">Select your computer proficiency</label>
-                <select name="computer proficiency" id="computer proficiency">
-                    <option value="Select">
-                        Select
-                    </option>
-                    <option value="Begginner">
-                        Beinner
-                    </option>
-                    <option value="None">
-                        None
-                    </option>
-                    <option value="Intermediate">
-                        Intermediate
-                    </option>
-                    <option value="Advanced">
-                        Advanced
-                    </option>
-                </select>
-          </form>
-          <form action="/submit" method="post">
-            <input type="submit" value="Submit" class="submit-btn">
-        </form>
-        
+        </div>
     </div>
-</div>
 </body>
 </html>
